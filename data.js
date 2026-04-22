@@ -21,7 +21,7 @@ const SESSIONS = [
     title: 'Keynote Address & Award Ceremony',
     time: '1:00 – 2:00 PM',
     timeSort: 1300,
-    location: 'Maugans – Martinelli Board Room (Bldg 42)',
+    location: 'Maugans – Martinelli Board Room',
     building: 42,
     desc: 'Keynote by Ms. Elizabeth Kostelny \'81, Former CEO of Preservation Virginia. Followed by the Incite Awards and Longwood Excellence in Research and Inquiry Awards.',
     presenters: [
@@ -73,7 +73,7 @@ const SESSIONS = [
     title: 'Biology 475: Animal Behavior',
     time: '9:15 AM – 1:00 PM',
     timeSort: 915,
-    location: 'Rotunda – Prince Edward Room (Bldg 51)',
+    location: 'Rotunda – Prince Edward Room',
     building: 51,
     mentor: 'Dr. Adam Franssen',
     presenters: [
@@ -98,7 +98,7 @@ const SESSIONS = [
     title: 'Biology 450: Biology of Cancer',
     time: '9:30 – 11:00 AM',
     timeSort: 930,
-    location: 'Rotunda – Room 108 (Bldg 51)',
+    location: 'Rotunda – Room 108',
     building: 51,
     mentor: 'Dr. Amorette Barber',
     presenters: [
@@ -116,7 +116,7 @@ const SESSIONS = [
     title: 'Cormier Honors & Independent Research',
     time: '9:30 AM – 12:50 PM',
     timeSort: 930,
-    location: 'Rotunda – Room 115 (Bldg 51)',
+    location: 'Rotunda – Room 115',
     building: 51,
     mentor: 'Various Faculty Sponsors',
     presenters: [
@@ -140,7 +140,7 @@ const SESSIONS = [
     title: 'Biology 251: Intro to Ecology & Evolution',
     time: '9:45 – 11:30 AM',
     timeSort: 945,
-    location: 'Rotunda – Virginia Room (Bldg 51)',
+    location: 'Rotunda – Virginia Room',
     building: 51,
     mentor: 'Dr. Ken Fortino & Dr. Jill Pestka',
     presenters: [
@@ -161,7 +161,7 @@ const SESSIONS = [
     title: 'Longwood Senior Thesis Program',
     time: '11:15 AM – 12:30 PM',
     timeSort: 1115,
-    location: 'Rotunda – Room 116 (Bldg 51)',
+    location: 'Rotunda – Room 116',
     building: 51,
     mentor: 'Various Faculty Sponsors',
     presenters: [
@@ -178,7 +178,7 @@ const SESSIONS = [
     title: 'Art 385: Critical Making Dream Exhibition',
     time: '1:00 – 3:15 PM',
     timeSort: 1300,
-    location: 'Bedford – Room 111 (Bldg 8)',
+    location: 'Bedford – Room 111',
     building: 8,
     mentor: 'Prof. Kathleen Kennedy',
     desc: 'Students from ART 385: Critical Making present research for their Dream Exhibition — acting as curators describing an exhibition of their own conception alongside the work of other artists.',
@@ -195,7 +195,7 @@ const SESSIONS = [
     title: 'English 320: Critical Theory',
     time: '2:00 – 5:30 PM',
     timeSort: 1400,
-    location: 'Rotunda – Virginia Room (Bldg 51)',
+    location: 'Rotunda – Virginia Room',
     building: 51,
     mentor: 'Dr. Sean Barry',
     presenters: [
@@ -222,7 +222,7 @@ const SESSIONS = [
     title: 'Honors & Independent Research (Afternoon)',
     time: '2:15 – 3:15 PM',
     timeSort: 1415,
-    location: 'Rotunda – Room 115 (Bldg 51)',
+    location: 'Rotunda – Room 115',
     building: 51,
     mentor: 'Various Faculty Sponsors',
     presenters: [
@@ -238,7 +238,7 @@ const SESSIONS = [
     title: 'PRISM: Perspectives on Research in Science & Math',
     time: '2:15 – 3:45 PM',
     timeSort: 1415,
-    location: 'Rotunda – Room 116 (Bldg 51)',
+    location: 'Rotunda – Room 116',
     building: 51,
     mentor: 'Various Faculty Sponsors',
     presenters: [
@@ -256,7 +256,7 @@ const SESSIONS = [
     title: 'Honors & Independent Research (Late Afternoon)',
     time: '3:15 – 5:00 PM',
     timeSort: 1515,
-    location: 'Rotunda – Prince Edward Room (Bldg 51)',
+    location: 'Rotunda – Prince Edward Room',
     building: 51,
     mentor: 'Various Faculty Sponsors',
     presenters: [
@@ -277,7 +277,7 @@ const SESSIONS = [
     subtitle: 'Art · Chemistry · Engineering · English · Nursing · Physics',
     time: '9:30 – 10:30 AM',
     timeSort: 930,
-    location: 'Blackwell Ballroom (Bldg 42)',
+    location: 'Blackwell Ballroom',
     building: 42,
     desc: 'Courses: NURS 360, CHEM 332, CHEM 333, CHEM 452, PHYS 223, PHYS 470, ENGR 403, ART/ISCI 340, ENGL 319'
   },
@@ -288,7 +288,7 @@ const SESSIONS = [
     subtitle: 'English · Health · Kinesiology · Psychology · Independent Research',
     time: '10:40 – 11:40 AM',
     timeSort: 1040,
-    location: 'Blackwell Ballroom (Bldg 42)',
+    location: 'Blackwell Ballroom',
     building: 42,
     desc: 'Courses: HPEP 402, KINS 470, PSYC 461, Independent Research, ENGL 319'
   },
@@ -299,7 +299,7 @@ const SESSIONS = [
     subtitle: 'Biology · Education · History · Psychology · Honors',
     time: '11:50 AM – 12:50 PM',
     timeSort: 1150,
-    location: 'Blackwell Ballroom (Bldg 42)',
+    location: 'Blackwell Ballroom',
     building: 42,
     desc: 'Courses: HIST 408, HIST 222, BIOL 365, PSYC 337, EDUC 245 (Honors), Cormier Honors College. Also features World Studies 10 Honors from Fuqua High School!'
   },
@@ -310,7 +310,7 @@ const SESSIONS = [
     subtitle: 'Anthropology · History · Nursing · Special Education · Citizen 410',
     time: '2:10 – 3:10 PM',
     timeSort: 1410,
-    location: 'Blackwell Ballroom (Bldg 42)',
+    location: 'Blackwell Ballroom',
     building: 42,
     desc: 'Courses: NURS 230, HIST 409, ANTH 470, SPED 389, CTZN 410'
   },
@@ -321,7 +321,7 @@ const SESSIONS = [
     subtitle: 'Biology · Environmental Science · Nursing',
     time: '3:20 – 4:20 PM',
     timeSort: 1520,
-    location: 'Blackwell Ballroom (Bldg 42)',
+    location: 'Blackwell Ballroom',
     building: 42,
     desc: 'Courses: NURS 230, BIOL 250, BIOL 250 Honors, BIOL 360, BIOL 330 Honors, BIOL 315, ENSC 201'
   },
@@ -332,7 +332,7 @@ const SESSIONS = [
     subtitle: 'Finance · Independent Research · Honors',
     time: '4:30 – 5:30 PM',
     timeSort: 1630,
-    location: 'Blackwell Ballroom (Bldg 42)',
+    location: 'Blackwell Ballroom',
     building: 42,
     desc: 'Courses: FINA 350, Independent Research, Cormier Honors College for Citizen Scholars'
   },
@@ -343,7 +343,7 @@ const SESSIONS = [
     title: 'Theatre 389: Integrated Arts Theatre',
     time: '9:30 AM – 12:15 PM',
     timeSort: 930,
-    location: 'CSTAC Room 101 (Bldg 17)',
+    location: 'CSTAC Room 101',
     building: 17,
     mentor: 'Dr. Ronda Scarrow',
     presenters: [
@@ -362,7 +362,7 @@ const SESSIONS = [
     title: 'Independent Study in Theatre',
     time: '12:15 – 1:00 PM',
     timeSort: 1215,
-    location: 'CSTAC Room 101 (Bldg 17)',
+    location: 'CSTAC Room 101',
     building: 17,
     presenters: [
       { time: '12:15', name: 'Maggie Kittrell', topic: 'Senior Seminar Research', mentor: 'Prof. Bruce Speas' },
@@ -376,7 +376,7 @@ const SESSIONS = [
     title: 'Music: Chamber Music Ensembles',
     time: '1:45 – 5:30 PM',
     timeSort: 1345,
-    location: 'Molnar Recital Hall, Wygal Hall (Bldg 64)',
+    location: 'Molnar Recital Hall, Wygal Hall',
     building: 64,
     mentor: 'Dr. Lisa Edwards-Burrs, Dr. Emily Ilyes, Dr. Roland Karnatz & others',
     presenters: [
@@ -394,7 +394,7 @@ const SESSIONS = [
     title: 'Citizen 410: Theatre as a Civic Space',
     time: '4:30 – 5:00 PM',
     timeSort: 1630,
-    location: 'CSTAC Room 101 (Bldg 17)',
+    location: 'CSTAC Room 101',
     building: 17,
     mentor: 'Prof. Jeffrey Todd Parrott',
     desc: 'A New Documentary Play Reading',
@@ -412,7 +412,7 @@ const SESSIONS = [
     subtitle: 'Studio Art & Graphic and Animation Design',
     time: '11:00 AM – 1:00 PM · Awards 11:30 AM',
     timeSort: 1100,
-    location: 'Bedford Gallery (Bldg 8)',
+    location: 'Bedford Gallery',
     building: 8,
     desc: 'Opening reception for the annual Junior Show, featuring work from Studio Art and Graphic & Animation Design programs.',
     presenters: [
@@ -431,7 +431,7 @@ const SESSIONS = [
     title: 'Pathways to Medical Professions',
     time: '11:45 AM – 12:45 PM',
     timeSort: 1145,
-    location: 'Chichester – Room G12 (Bldg 14)',
+    location: 'Chichester – Room G12',
     building: 14,
     desc: 'For pre-health students. Featuring Dr. Kim Baskette (Radford Carilion) and Dr. Michael Joyce, M.D. (VCU School of Medicine) — a Longwood Biology graduate.'
   },
@@ -441,7 +441,7 @@ const SESSIONS = [
     title: 'Career Workshop: Criminology & Sociology',
     time: '11:45 AM – 12:45 PM',
     timeSort: 1145,
-    location: 'Chichester – Room G03 (Bldg 14)',
+    location: 'Chichester – Room G03',
     building: 14,
     desc: 'Turn research projects and coursework into strong resume content. Learn to highlight data analysis, writing, and problem-solving for employers and graduate schools.'
   },
@@ -451,7 +451,7 @@ const SESSIONS = [
     title: 'Career Development Open House — All Majors',
     time: '2:30 – 3:30 PM',
     timeSort: 1430,
-    location: 'Maugans – Center for Career Success (Bldg 42)',
+    location: 'Maugans – Center for Career Success',
     building: 42,
     desc: 'Get personalized 1:1 feedback on turning research experience into cover letters, resume bullets, and LinkedIn profiles. Refreshments served.'
   }

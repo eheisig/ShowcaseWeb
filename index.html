@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Spring Showcase 2026 · Longwood University</title>
+<link rel="icon" type="image/svg+xml" href="Spring-Showcase-2026-Program/ShowcaseLogo.svg">
+<link rel="alternate icon" type="image/png" href="Spring-Showcase-2026-Program/ShowcaseLogo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -699,9 +701,13 @@
 
     <!-- LOCATIONS VIEW -->
     <div id="view-locations" class="view">
+      <a href="campus-map.pdf" target="_blank" style="display: block; background: var(--brand-sky-blue); color: var(--navy); text-align: center; padding: 12px; border-radius: 12px; margin-bottom: 12px; text-decoration: none; font-weight: 600; font-family: 'Montserrat', sans-serif;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px; vertical-align: text-bottom;"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+        View Campus Map (PDF)
+      </a>
       <div class="parking-note">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
-        <span><strong>Free Parking</strong> — Brock Commons Garage (underneath Building 21), East Redford St.</span>
+        <span><strong>Free Parking</strong> — Brock Commons Garage, East Redford St.</span>
       </div>
       <div id="locations-list"></div>
     </div>
@@ -849,7 +855,6 @@ function renderLocations() {
   </div>`;
   LOCATIONS.forEach(l => {
     html += `<div class="loc-card" onclick="filterByBuilding(${l.num})">
-      <span class="loc-num">#${l.num}</span>
       <div class="loc-name">${l.name}</div>
       <div class="loc-events">${l.events}</div>
     </div>`;
@@ -866,7 +871,7 @@ function filterByBuilding(num) {
 
 function openBuildingDetail(loc, sessions) {
   document.getElementById('detail-title').textContent = loc.name;
-  document.getElementById('detail-meta').innerHTML = `<span>Building #${loc.num}</span>`;
+  document.getElementById('detail-meta').innerHTML = '';
   let html = `<div class="detail-section">
     <div class="detail-section-label">Sessions at this location</div>
     ${sessions.map(s => `
